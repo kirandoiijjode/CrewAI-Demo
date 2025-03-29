@@ -15,7 +15,6 @@ topic = "AI in Healthcare"
 # LLM Provider
 llm = LLM(
     model="gemini/gemini-2.0-flash",
-    temperature=0.7
 )
 # Tool
 search_tool = SerperDevTool(n=2)
